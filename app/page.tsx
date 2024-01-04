@@ -52,7 +52,6 @@ export default function Portfolio() {
         <section className="mt-12 mb-8">
           <h2 className="text-3xl font-semibold">Contact Me</h2>
           <p className="mt-4">Email: nityaranjan22@gmail.com</p>
-          <p>Phone: 317-939-8004</p>
           <Link href="https://linkedin.com/in/nityaranjan/"><a className="text-blue-400 hover:underline">LinkedIn</a></Link>
         </section>
       </main>

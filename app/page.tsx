@@ -7,6 +7,7 @@ export default function Portfolio() {
     <div>
       <Head>
         <title>Nitya Ranjan</title>
+        <link rel="icon" href="/icon.png" />
         {/* You can also add meta tags, link to favicons etc. here */}
       </Head>
       <main className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-700 text-white p-8">

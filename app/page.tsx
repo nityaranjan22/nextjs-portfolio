@@ -14,7 +14,7 @@ export default function Portfolio() {
         {/* Hero Section */}
         <section className="text-center">
           <h1 className="text-4xl font-bold">Nitya Ranjan</h1>
-          <p className="mt-3 text-xl">Electrical and Computer Engineering Graduate | Software Engineer Intern at ClearObject</p>
+          <p className="mt-3 text-xl">Electrical and Computer Engineering Graduate | Software Engineer at ClearObject</p>
         </section>
 
         {/* Profile Section */}

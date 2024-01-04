@@ -7,7 +7,7 @@ export default function Portfolio() {
       <main className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-700 text-white p-8">
         {/* Hero Section */}
         <section className="text-center">
-          <h1 className="text-4xl font-bold">Nitya Ranjan's Portfolio</h1>
+          <h1 className="text-4xl font-bold">Nitya Ranjan&apos;s Portfolio</h1>
           <p className="mt-3 text-xl">Electrical and Computer Engineering Graduate | Software Engineer Intern at ClearObject</p>
         </section>
 
@@ -25,7 +25,7 @@ export default function Portfolio() {
           <div className="mt-4">
             {/* Experience details here */}
             <h3 className="text-2xl font-semibold">Software Engineer Intern, ClearObject</h3>
-            <p className="italic">2023/05 – Present | Fishers, United States</p>
+            <p className="italic">2023/05 &ndash; Present | Fishers, United States</p>
             <ul className="list-disc ml-5">
               <li>Migrating essential assets and artifacts from Google Cloud Platform to Azure.</li>
               <li>Spearheaded the deployment of Dockerized applications across multiple NVIDIA devices...</li>
@@ -41,9 +41,9 @@ export default function Portfolio() {
           <p className="mt-4">
             MS Electrical and Computer Engineering, Purdue School of Engineering and Technology
           </p>
-          <p>GPA: 3.2 (2022/05 – 2023/12)</p>
+          <p>GPA: 3.2 (2022/05 &ndash; 2023/12)</p>
           <p>BS Computer Engineering, Purdue School of Engineering and Technology</p>
-          <p>GPA: 3.42 (2018/08 – 2022/05)</p>
+          <p>GPA: 3.42 (2018/08 &ndash; 2022/05)</p>
           {/* Add more educational details if necessary */}
         </section>
 

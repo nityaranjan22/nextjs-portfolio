@@ -15,7 +15,7 @@ export default function Portfolio() {
         <section className="mt-12">
           <h2 className="text-3xl font-semibold">Profile</h2>
           <p className="mt-4">
-            Available for a full-time position from January 2024.
+            Software Enginneer.
           </p>
         </section>
 

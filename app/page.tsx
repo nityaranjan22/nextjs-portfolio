@@ -15,7 +15,7 @@ export default function Portfolio() {
         <section className="mt-12">
           <h2 className="text-3xl font-semibold">Profile</h2>
           <p className="mt-4">
-            Software Engineer specializing in Sensors. 
+            Available for a full-time position from January 2024.
           </p>
         </section>
 
@@ -41,7 +41,9 @@ export default function Portfolio() {
           <p className="mt-4">
             MS Electrical and Computer Engineering, Purdue School of Engineering and Technology
           </p>
+          <p>GPA: 3.2 (2022/05 – 2023/12)</p>
           <p>BS Computer Engineering, Purdue School of Engineering and Technology</p>
+          <p>GPA: 3.42 (2018/08 – 2022/05)</p>
           {/* Add more educational details if necessary */}
         </section>
 

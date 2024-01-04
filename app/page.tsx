@@ -12,23 +12,6 @@ export default function Portfolio() {
         {/* You can also add meta tags, link to favicons etc. here */}
       </Head>
 
-      <TypeAnimation
-      sequence={[
-        'One', // Types 'One'
-        1000, // Waits 1s
-        'Two', // Deletes 'One' and types 'Two'
-        2000, // Waits 2s
-        'Two Three', // Types 'Three' without deleting 'Two'
-        () => {
-          console.log('Sequence completed');
-        },
-      ]}
-      wrapper="span"
-      cursor={true}
-      repeat={Infinity}
-      style={{ fontSize: '2em', display: 'inline-block' }}/>
-
-
       <main className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-700 text-white p-8">
         {/* Hero Section */}
         <section className="text-center">

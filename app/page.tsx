@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Portfolio() {
   return (
     <div>
-      <main className="min-h-screen bg-gray-100 p-8">
+      <main className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-700 text-white p-8">
         {/* Hero Section */}
         <section className="text-center">
           <h1 className="text-4xl font-bold">John Doe&apos;s Portfolio</h1>
@@ -24,15 +24,15 @@ export default function Portfolio() {
           <h2 className="text-3xl font-semibold">Projects</h2>
           <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
             {/* Project Cards */}
-            <div className="rounded border p-4 shadow">
+            <div className="rounded border border-gray-300 p-4 shadow">
               <h3 className="text-xl font-bold">Project 1</h3>
               <p>Description of project 1...</p>
-              <Link href="/projects/project1"><a className="text-blue-600 hover:underline">Read more</a></Link>
+              <Link href="/projects/project1"><a className="text-blue-400 hover:underline">Read more</a></Link>
             </div>
-            <div className="rounded border p-4 shadow">
+            <div className="rounded border border-gray-300 p-4 shadow">
               <h3 className="text-xl font-bold">Project 2</h3>
               <p>Description of project 2...</p>
-              <Link href="/projects/project2"><a className="text-blue-600 hover:underline">Read more</a></Link>
+              <Link href="/projects/project2"><a className="text-blue-400 hover:underline">Read more</a></Link>
             </div>
             {/* Add more projects as needed */}
           </div>

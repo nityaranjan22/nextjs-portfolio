@@ -7,42 +7,55 @@ export default function Portfolio() {
       <main className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-700 text-white p-8">
         {/* Hero Section */}
         <section className="text-center">
-          <h1 className="text-4xl font-bold">John Doe&apos;s Portfolio</h1>
-          <p className="mt-3 text-xl">Frontend Developer | UI/UX Enthusiast</p>
+          <h1 className="text-4xl font-bold">Nitya Ranjan's Portfolio</h1>
+          <p className="mt-3 text-xl">Electrical and Computer Engineering Graduate | Software Engineer Intern at ClearObject</p>
         </section>
 
-        {/* About Section */}
+        {/* Profile Section */}
         <section className="mt-12">
-          <h2 className="text-3xl font-semibold">About Me</h2>
+          <h2 className="text-3xl font-semibold">Profile</h2>
           <p className="mt-4">
-            I&apos;m a Frontend Developer with a passion for building beautiful and functional web applications. I specialize in React and Next.js and am constantly learning new technologies.
+            Software Engineer specializing in Sensors. 
           </p>
         </section>
 
-        {/* Projects Section */}
+        {/* Experience Section */}
         <section className="mt-12">
-          <h2 className="text-3xl font-semibold">Projects</h2>
-          <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
-            {/* Project Cards */}
-            <div className="rounded border border-gray-300 p-4 shadow">
-              <h3 className="text-xl font-bold">Project 1</h3>
-              <p>Description of project 1...</p>
-              <Link href="/projects/project1"><a className="text-blue-400 hover:underline">Read more</a></Link>
-            </div>
-            <div className="rounded border border-gray-300 p-4 shadow">
-              <h3 className="text-xl font-bold">Project 2</h3>
-              <p>Description of project 2...</p>
-              <Link href="/projects/project2"><a className="text-blue-400 hover:underline">Read more</a></Link>
-            </div>
-            {/* Add more projects as needed */}
+          <h2 className="text-3xl font-semibold">Experience</h2>
+          <div className="mt-4">
+            {/* Experience details here */}
+            <h3 className="text-2xl font-semibold">Software Engineer Intern, ClearObject</h3>
+            <p className="italic">2023/05 – Present | Fishers, United States</p>
+            <ul className="list-disc ml-5">
+              <li>Migrating essential assets and artifacts from Google Cloud Platform to Azure.</li>
+              <li>Spearheaded the deployment of Dockerized applications across multiple NVIDIA devices...</li>
+              {/* Add other points similarly */}
+            </ul>
+            {/* Include other experiences in the same format */}
           </div>
         </section>
+
+        {/* Education Section */}
+        <section className="mt-12">
+          <h2 className="text-3xl font-semibold">Education</h2>
+          <p className="mt-4">
+            MS Electrical and Computer Engineering, Purdue School of Engineering and Technology
+          </p>
+          <p>GPA: 3.2 (2022/05 – 2023/12)</p>
+          <p>BS Computer Engineering, Purdue School of Engineering and Technology</p>
+          <p>GPA: 3.42 (2018/08 – 2022/05)</p>
+          {/* Add more educational details if necessary */}
+        </section>
+
+        {/* Additional Sections for Projects, Publications, etc. */}
+        {/* ... */}
 
         {/* Contact Section */}
         <section className="mt-12 mb-8">
           <h2 className="text-3xl font-semibold">Contact Me</h2>
-          <p className="mt-4">Feel free to reach out for collaborations or just a friendly hello 👋</p>
-          <p className="mt-2">Email: john@example.com</p>
+          <p className="mt-4">Email: nityaranjan22@gmail.com</p>
+          <p>Phone: 317-939-8004</p>
+          <Link href="https://linkedin.com/in/nityaranjan/"><a className="text-blue-400 hover:underline">LinkedIn</a></Link>
         </section>
       </main>
     </div>

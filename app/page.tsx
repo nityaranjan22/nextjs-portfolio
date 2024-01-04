@@ -7,7 +7,7 @@ export default function Portfolio() {
       <main className="min-h-screen bg-gray-100 p-8">
         {/* Hero Section */}
         <section className="text-center">
-          <h1 className="text-4xl font-bold">John Doe's Portfolio</h1>
+          <h1 className="text-4xl font-bold">John Doe&apos;s Portfolio</h1>
           <p className="mt-3 text-xl">Frontend Developer | UI/UX Enthusiast</p>
         </section>
 
@@ -15,7 +15,7 @@ export default function Portfolio() {
         <section className="mt-12">
           <h2 className="text-3xl font-semibold">About Me</h2>
           <p className="mt-4">
-            I'm a Frontend Developer with a passion for building beautiful and functional web applications. I specialize in React and Next.js and am constantly learning new technologies.
+            I&apos;m a Frontend Developer with a passion for building beautiful and functional web applications. I specialize in React and Next.js and am constantly learning new technologies.
           </p>
         </section>
 

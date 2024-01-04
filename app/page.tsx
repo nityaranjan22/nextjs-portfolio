@@ -4,6 +4,10 @@ import Link from 'next/link';
 export default function Portfolio() {
   return (
     <div>
+      <Head>
+        <title>Nitya Ranjan's Portfolio</title>
+        {/* You can also add meta tags, link to favicons etc. here */}
+      </Head>
       <main className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-700 text-white p-8">
         {/* Hero Section */}
         <section className="text-center">

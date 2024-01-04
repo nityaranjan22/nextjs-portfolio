@@ -21,7 +21,7 @@ export default function Portfolio() {
         <section className="mt-12">
           <h2 className="text-3xl font-semibold">Profile</h2>
           <p className="mt-4">
-            Software Enginneer.
+            Software Engineer.
           </p>
         </section>
 
